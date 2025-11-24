@@ -6,6 +6,9 @@ let student = {
     courses: ["CPAN111","CPAN113","CPAN116","CPAN133","CPAN134"],
     info(){
         console.log("Hello my name is "+this.name,"and my age is "+this.age);
+    },
+    addCourse(coursename){
+        this.courses.push(coursename);
     }
 };
 console.log(student.info());
@@ -31,3 +34,7 @@ console.log(copiedStudent);
 let newCourses = ["CPAN112","CPAN121"];
 let allCourses = [...student.courses, ...newCourses];
 console.log(allCourses);
+//---Part5:Spread Operator---
+//---Add new course method---
+student.addCourse("CPAN144");
+console.log(student.courses);
