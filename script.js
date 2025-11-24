@@ -19,4 +19,10 @@ console.log(parseStudent);
 let {name,courses} = student;
 console.log(name);
 console.log(courses);
+//---Score Array---
+let score = [85, 92, 78, 90];
+let [first,second] = score;
+console.log(first);
+console.log(second);
+
 
