@@ -24,5 +24,8 @@ let score = [85, 92, 78, 90];
 let [first,second] = score;
 console.log(first);
 console.log(second);
+//---Part4:Spread Operator---
+let copiedStudent = {...student, graduationyear:2027};
+console.log(copiedStudent);
 
 
