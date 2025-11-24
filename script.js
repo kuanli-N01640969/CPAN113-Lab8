@@ -12,3 +12,6 @@ console.log(student.info());
 //---Part2:JOSN---
 let studentJSON = JSON.stringify(student);
 console.log(studentJSON);
+//convert back to object
+let parseStudent = JSON.parse(studentJSON);
+console.log(parseStudent);
