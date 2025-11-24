@@ -9,6 +9,9 @@ let student = {
     },
     addCourse(coursename){
         this.courses.push(coursename);
+    },
+    totalCourses(){
+        return this.courses.length;
     }
 };
 console.log(student.info());
@@ -38,3 +41,6 @@ console.log(allCourses);
 //---Add new course method---
 student.addCourse("CPAN144");
 console.log(student.courses);
+//---Calc total course method---
+student.addCourse("CPAN112");
+console.log(student.totalCourses());
