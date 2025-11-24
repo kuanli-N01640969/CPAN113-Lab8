@@ -27,5 +27,7 @@ console.log(second);
 //---Part4:Spread Operator---
 let copiedStudent = {...student, graduationyear:2027};
 console.log(copiedStudent);
-
-
+//---Merge Array---
+let newCourses = ["CPAN112","CPAN121"];
+let allCourses = [...student.courses, ...newCourses];
+console.log(allCourses);
