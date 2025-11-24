@@ -1,3 +1,4 @@
+//---Part1:Creating Object---
 let student = {
     name: "Kuan",
     age: 30,
@@ -8,4 +9,6 @@ let student = {
     }
 };
 console.log(student.info());
-
+//---Part2:JOSN---
+let studentJSON = JSON.stringify(student);
+console.log(studentJSON);
